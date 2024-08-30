@@ -1,2 +1,2 @@
 # salt-and-peeper
-Hacathon
+for Hacathon
