@@ -1,0 +1,469 @@
+@font-face {
+    font-family:butler;
+    src: url(./assets/Butler/Butler_Regular.otf);
+}
+@font-face {
+    font-family:butler2;
+    src: url(./assets/Butler/Butler_ExtraBold.otf);
+}
+@font-face {
+    font-family:butler3;
+    src: url(./assets/Butler/Butler_ExtraBold.otf);
+}
+@font-face {
+    font-family:futra;
+    src: url(./assets/futurak.ttf);
+}
+@font-face {
+    font-family:aper;
+    src: url(./assets/FontsFree-Net-ApercuLight.ttf);
+}
+
+.nav-container{
+    margin: 0%;
+    padding: 0%;
+    height: 95px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items:center;
+    top: 0%;
+    position: fixed;
+    left: 0%;
+
+
+}
+.logo{
+    padding: 80px;
+    height: 75px;
+    width: 165px;
+  
+}
+ ul{
+    display: inline-block;
+
+}
+ul li{
+    display: inline-block;
+
+}
+.nav-link{
+ 
+    display: flex;
+    gap: 100px;
+    color: rgb(255, 255, 255);
+    font-family:aper;
+    
+
+} 
+.btn{
+    border: 1px solid;
+
+
+    border-radius: 50px;
+    background-color: rgb(0, 0, 0);
+    color: beige;   
+    width: 130px;
+    height: 50px;
+}
+.btn-order{  
+
+    border: 1px red;
+    border-radius: 50px;
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    width: 130px;
+    height: 50px;
+    margin: 10px;
+}
+.esi{
+    padding: 50px;
+    
+}
+
+.img-cotainer{
+    margin-top: 90px;
+    height: 450px;
+    width: 100%;
+    background-image: url(Assets/Capture.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/* Main Contain */
+
+.contain{
+    background-color: black;
+    position: relative  ;
+    width: 100%;
+    height: 600PX;
+    
+    
+}
+.str{
+    padding: 40px;
+    margin-top: 0%;
+    color: rgb(253, 253, 253);
+    font-size: 50px;
+    text-align: center;
+    font-family: aper;
+}
+.str2{
+    font-family: futra;
+}
+.str3{
+    font-size: 40px;
+    line-height: 80%;
+
+}
+.str4{
+    
+    font-size: 15px;
+    line-height: 10px;
+}
+.contain-2{
+    height: 120px;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    left: 15%;
+    border-radius: 2px;
+    top: 40%;
+    
+}    
+.contain-3{
+    
+    height: 120px;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    left: 40%;
+    border-radius: 2px;
+    top: 40%;
+}
+.contain-4{
+    height: 120px;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    left: 65%;
+    border-radius: 2px;
+    top: 40%;
+}
+.res{
+    height: 100px;
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;   
+}
+.express{
+    height: 100px;
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.village{
+    height: 100px;
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.res2{
+    border: 1px solid;
+    border-radius: 50px;
+    background-color: rgb(0, 0, 0);
+    color: beige;   
+    width: 150px;
+    height: 50px;
+    /* position: absolute; */
+    margin: 47px;
+    
+  
+}
+.res3{
+    border: 1px solid;
+    border-radius: 50px;
+    background-color: rgb(0, 0, 0);
+    color: beige;   
+    width: 150px;
+    height: 50px;
+    /* position: absolute; */
+    
+    
+}
+.res4{
+    border: 1px solid;
+    border-radius: 50px;
+    background-color: rgb(0, 0, 0);
+    color: beige;   
+    width: 150px;
+    height: 50px;
+    /* position: absolute;  */
+}
+.sec-contain{
+    height: 1300px;
+    width: 100%;
+    background-color: rgb(26, 24, 24);
+}
+.sec1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 40px;
+    
+}
+.sec2{
+    font-size: 50px;
+    font-family: futra;
+}
+.sec3{
+    font-size: 50px;
+    font-family: butler2;
+}
+.sec4{
+    font-size: 17px;
+    font-family: aper;
+}
+
+
+
+/* Resturant Branch 1 */
+.img1{
+    width: 40%;
+    margin-left: 50%;
+    margin-top: -190px;
+}
+.res-branch1{
+    margin-left: 80px;
+    color: rgb(255, 255, 255);
+}
+.branch-first{
+    font-size: 20px;
+    font-family: aper;
+    color: rgb(185, 12, 12);
+
+}
+.branch-sec{
+    font-size: 40px;
+    font-family: futra;
+
+}
+.branch-third{
+    font-size: 35px;
+    font-family: aper;
+    
+
+
+}
+
+.branch-fourth{
+    font-size: 13px;
+    font-family: aper;
+    text-decoration:none;  
+}
+.res-btn{
+    /* border: 1px solid; */
+
+
+    border-radius: 50px;
+    background-color: rgb(0, 0, 0);
+    color: beige;   
+    width: 130px;
+    height: 50px;
+}
+.res-btn-class{
+    margin-top: 50px;
+
+}
+.res-branch2{
+    margin-top: -300px;
+    margin-left: 50%;
+    color: rgb(255, 255, 255);
+
+}
+.img2{
+    margin-top: 50px;
+    margin-left: 80px;
+    width: 40%;
+    height: 280px;
+}
+.res-branch3{
+    margin-top: 100px;
+    color: rgb(255, 255, 255);
+    margin-left: 80px;
+}
+.img3{
+    width: 40%;
+    margin-left: 50%;
+    margin-top: -250px;
+}
+.frenchise-content{
+    width: 100%;
+    height: 2200px;
+    background-color: black;
+}
+.fren-1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 40px;
+    
+}
+.fren-one{
+    font-family: futra;
+    font-size: 52px;
+
+}
+.fren-two{
+    font-family: butler2;
+    font-size: 50px;
+
+}
+.branch-1{
+    justify-content: space-around;
+    margin-left: 20px;
+    padding-left: 40px;
+    text-align: center;
+    display: inline-block;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.one-1{
+   
+    height: 260px;
+    width: 250px;
+}
+.one-2{
+    color: red;
+    font-family: aper;    
+}
+.one-3{
+    color: #ffff;
+    font-size: 25px;
+    font-family: futra;
+
+}
+.one-4{
+    color: #ffff;
+    font-size: 22px;
+    font-family: aper;
+
+}
+.one-4{
+    color: #fff;
+    font-size: 15px;
+}
+.one-5{
+    color: #fff;
+    font-size: 15px;
+
+}
+.arg{
+    padding-left: 150px;
+}
+/* Opening soon */
+.opening-soon{
+    height: 1500px;
+    width: 100%;
+    background-color: black;
+    padding-right: 30px;
+    
+}
+.box1{
+    margin-left: 80px;
+    height: 280px;
+    width: 250px;
+    background-color: beige;
+    display: inline-table;
+    margin-bottom: 30px;
+}
+.soon{
+    padding-top: 30px;
+    text-align: center;
+
+}
+.soon1{
+    color: #ffff;
+    font-family: futra;
+    font-size: 40px;
+}
+.soon2{
+    color: #ffff;
+    font-size: 40px;
+    font-family: aper;
+}
+.map{
+    text-align: center;
+    padding-top: 30px;
+}
+.soon-1{
+    color: red;
+    
+}
+.soon-2{
+    font-family: butler3;
+    font-size: 20px;
+
+}
+.soon-3{
+    font-family: butler;
+    font-size: 20px;
+
+
+}
+.arg2{
+    padding-left: 330px;
+}
+/* Social Feed */
+.soc{
+    color: #ffff;
+    font-family: butlers2;
+    font-size: 35px;
+    text-align: center;
+}
+.feed{
+    
+  
+    height: 200px;
+    width: 200px;
+}
+.feed2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; 
+    gap: 10px;
+}
+/* Village */
+.village2{
+    height: 500px;
+    width: 100%;
+    background-color:  rgb(26, 24, 24);
+}
+.vill1{
+    font-family: futra;
+    font-size: 50px;
+
+}
+.vill2{
+    font-family: butlar3;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.img23{
+    margin-right: 440px;
+    width: 40%;
+    padding-top: 50px;
+}
+.footer{
+    background-color:   rgb(26, 24, 24);
+    height: 500px;
+    width: 100%;
+}
+.btn22{
+    text-decoration: none;
+    color: #fff;
+}
